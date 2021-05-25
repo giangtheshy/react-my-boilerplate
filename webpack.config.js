@@ -69,7 +69,7 @@ module.exports = {
       Scss: path.resolve(__dirname, "src/scss"),
       Store: path.resolve(__dirname, "src/store"),
       Utils: path.resolve(__dirname, "src/utils"),
-      Actions: path.resolve(__dirname, "src/store/actions"),
+
       types$: path.resolve(__dirname, "src/store/types.js"),
     },
     extensions: [".js", ".jsx"],

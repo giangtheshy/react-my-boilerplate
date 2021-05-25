@@ -1,11 +1,5 @@
 import * as types from "types";
-import * as apis from "Apis";
+// import * as apis from "Apis";
 
-export const getPosts = () => async (dispatch) => {
-  try {
-    const { data } = await apis.getPosts();
-    dispatch({ type: types.GET_POSTS, payload: data });
-  } catch (error) {
-    console.log(error);
-  }
-};
+export const getPosts = () => ({ type: types.GET_POSTS });
+export const setPosts = (posts) => ({ type: types.SET_POSTS, payload: posts });

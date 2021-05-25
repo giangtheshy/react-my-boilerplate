@@ -9,7 +9,7 @@ const Post = () => {
   const dispatch = useDispatch();
   useEffect(() => {
     dispatch(getPosts());
-  }, []);
+  }, [dispatch]);
   console.log(posts);
   return (
     <div>

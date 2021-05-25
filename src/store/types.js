@@ -8,3 +8,4 @@ export const LOGIN_GOOGLE = "LOGIN_GOOGLE";
 export const SET_ROLE = "SET_ROLE";
 
 export const GET_POSTS = "GET_POSTS";
+export const SET_POSTS = "SET_POSTS";
